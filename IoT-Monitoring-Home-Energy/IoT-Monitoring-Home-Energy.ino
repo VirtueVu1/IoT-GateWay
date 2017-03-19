@@ -4,7 +4,7 @@
 FastCRC16 CRC16;
 
 unsigned long previousMillis = 0; 
-const long interval = 3000;  
+const long interval = 5000;  
 void setup(){
   
   Serial.begin(2400);
